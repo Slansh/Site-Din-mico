@@ -59,31 +59,31 @@ cd seu-site-dinamico
 
 Instale as dependências:
 
-```bash
+bash
+Copy
+Edit
 npm install
 Instale o pacote de ícones lucide-react:
 
-```bash
-
+bash
+Copy
+Edit
 npm install lucide-react
 Se estiver usando Vite ou não tiver o Tailwind configurado via build, adicione o CDN no seu public/index.html:
 
 html
-
+Copy
+Edit
 <!-- No <head> -->
 <script src="https://cdn.tailwindcss.com"></script>
-
 ▶️ Executar o Projeto
-```bash
-
+bash
+Copy
+Edit
 npm start
 # Ou, se usou Vite:
-# npm run dev
-O projeto abrirá automaticamente em:
-
-CRA: http://localhost:3000/
-
-Vite: http://localhost:5173/
+npm run dev
+```
 
 ## 🔍 Como Usar a Pesquisa de Pokémon
 
