@@ -56,3 +56,49 @@ Clone o repositório:
 ```bash
 git clone <URL_DO_SEU_REPOSITORIO>
 cd seu-site-dinamico
+
+Instale as dependências:
+
+```bash
+npm install
+Instale o pacote de ícones lucide-react:
+
+```bash
+
+npm install lucide-react
+Se estiver usando Vite ou não tiver o Tailwind configurado via build, adicione o CDN no seu public/index.html:
+
+html
+
+<!-- No <head> -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+▶️ Executar o Projeto
+```bash
+
+npm start
+# Ou, se usou Vite:
+# npm run dev
+O projeto abrirá automaticamente em:
+
+CRA: http://localhost:3000/
+
+Vite: http://localhost:5173/
+
+## 🔍 Como Usar a Pesquisa de Pokémon
+
+1. Vá até a página **"Pesquisar Pokémon"**
+2. No campo de texto, digite o nome de um Pokémon  
+   _Exemplo:_ `pikachu`, `charmander`, `ditto`
+3. Clique em **Pesquisar** ou pressione **Enter**
+4. Os detalhes do Pokémon aparecerão abaixo
+
+---
+
+## 🎯 Próximos Passos e Melhorias
+
+- ✅ Implementar roteamento real com `react-router-dom`
+- 🎨 Adicionar mais detalhes visuais à exibição dos Pokémon
+- 🛡️ Melhorar validação de formulário
+- 📄 Criar paginação ou pesquisa por lista de Pokémon
+- ⚙️ Explorar o uso de **Context API** ou outras bibliotecas de gestão de estado
